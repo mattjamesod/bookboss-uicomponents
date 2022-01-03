@@ -1,7 +1,7 @@
 import SwiftUI
 
 extension View {
-    func popup<T: View>(isPresented: Binding<Bool>, @ViewBuilder content: () -> T) -> some View {
+    public func popup<T: View>(isPresented: Binding<Bool>, @ViewBuilder content: () -> T) -> some View {
         self.modifier(Popup(isPresented: isPresented, content: content))
     }
 }
