@@ -1,3 +1,3 @@
 # BookBossUIComponents
 
-A description of this package.
+Reusable UI components deisgned for views in BookBoss.
